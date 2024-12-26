@@ -8,11 +8,14 @@
     display: flex;
 }
 
+nav {
+    background: #E7EEFF;
+}
+
 .sideBar {
     display: inline-flex;
     padding: 12px 28px 0px 28px;
     flex-direction: column;
-    background: #E7EEFF;
     align-items: center;
     gap: 24px;
     flex-shrink: 0;
@@ -104,12 +107,49 @@
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    agap: 30px;
+    gap: 30px;
 }
 
 .placesAndInfo {
     display: flex;
     max-width: 1140px;
     width: 100%;
+    gap: 42px;
     margin: 0 auto;
+    flex-direction: column;
+}
+
+.modenrHouse img {
+    display: flex;
+}
+
+.modernHouse {
+    display: inline-block
+}
+
+.modernHouseText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 24px;
+    background: #E7EEFF;
+}
+
+.text {
+    color: #000;
+    font-size: 18px;
+    padding: 8px 12px 0px 12px;
+}
+
+.greyText {
+    color: #606060;
+    font-size: 14px;
+    padding: 0px 12px 8px 12px;
+}
+
+.houseFirstColumnFrames {
+    display: flex;
+    align-items: flex-start;
+    gap: 42px;
 }
